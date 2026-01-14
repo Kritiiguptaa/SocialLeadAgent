@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-st.set_page_config(page_title="AutoStream AI")
+st.set_page_config(page_title="AI Assistant")
 
-st.title("AutoStream AI Assistant")
+st.title("AI Assistant")
 st.markdown("Ask me about pricing, features, or sign up for a plan!")
 
 if "messages" not in st.session_state:
